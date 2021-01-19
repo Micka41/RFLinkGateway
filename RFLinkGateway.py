@@ -51,7 +51,7 @@ def main():
     # messages written to device
     commandQ = multiprocessing.Queue()
 
-    config_file = os.getenv('RFLINK_CONF_FILE', 'config.json')
+    config_file = os.getenv('RFLINK_CONF_FILE', '/usr/local/libexec/RFLinkGateway/config.json')
     config = {}
     try:
         with open(config_file) as json_data:
