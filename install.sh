@@ -18,7 +18,7 @@ then
 
   chmod +x /usr/local/libexec/RFLinkGateway/RFLinkGateway.py
 
-  update-rc.d RFLinkGateway.service defaults && invoke-rc.d RFLinkGateway.service start  
+  update-rc.d RFLinkGateway.service defaults && invoke-rc.d RFLinkGateway start  
   
   echo "RFLinkGateway installed."
 else
